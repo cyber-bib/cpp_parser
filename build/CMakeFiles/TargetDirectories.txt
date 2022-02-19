@@ -1,0 +1,3 @@
+C:/Users/Alex/dev/vimdex/build/CMakeFiles/vimdex.dir
+C:/Users/Alex/dev/vimdex/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Alex/dev/vimdex/build/CMakeFiles/ZERO_CHECK.dir

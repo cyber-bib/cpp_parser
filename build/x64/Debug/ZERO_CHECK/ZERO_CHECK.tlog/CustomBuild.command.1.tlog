@@ -1,0 +1,10 @@
+^C:\USERS\ALEX\DEV\VIMDEX\BUILD\CMAKEFILES\354F7742F8B6E36C0DACFECC1E6233D5\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Alex/dev/vimdex/src -BC:/Users/Alex/dev/vimdex/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Alex/dev/vimdex/build/vimdex-prj.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
